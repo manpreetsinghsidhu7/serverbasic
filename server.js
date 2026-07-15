@@ -10,6 +10,10 @@ app.get('/about', (req, res) => {
   res.json({ message: 'This is the about route', status: 'ok' });
 });
 
+app.get('/jenkins', (req, res) => {
+  res.json({ status: 'Jenkins Added', server: 'Jenkins CICD Pipeline running' });
+});
+
 app.get('/status', (req, res) => {
   res.json({ status: 'running', server: 'basic-express' });
 });
