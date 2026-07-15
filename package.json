@@ -1,0 +1,25 @@
+{
+  "name": "basicserver",
+  "version": "1.0.1",
+  "description": "new version",
+  "keywords": [
+    "githubactions",
+    "cicd"
+  ],
+  "homepage": "https://github.com/manpreetsinghsidhu7/serverbasic#readme",
+  "bugs": {
+    "url": "https://github.com/manpreetsinghsidhu7/serverbasic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manpreetsinghsidhu7/serverbasic.git"
+  },
+  "license": "ISC",
+  "author": "manpreet",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
