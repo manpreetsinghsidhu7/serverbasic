@@ -35,7 +35,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
 
           script: |
-            cd ~/devops-server
+            cd ~/serverbasic
             git pull origin main
             npm install
             pm2 restart all
