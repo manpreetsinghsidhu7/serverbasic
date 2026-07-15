@@ -14,10 +14,6 @@ app.get('/jenkins', (req, res) => {
   res.json({ status: 'Jenkins Added', server: 'Jenkins CICD Pipeline running' });
 });
 
-app.get('/status', (req, res) => {
-  res.json({ status: 'running', server: 'basic-express' });
-});
-
 app.get('/hello/:name', (req, res) => {
   res.json({ message: `Hello, ${req.params.name}!` });
 });
